@@ -20,14 +20,14 @@ function startGame(room) {
   const deck = shuffle(
     songsData
       .filter(song => genres.has(song.genre))
+      .filter(song => getPreviewUrl(song.deezerId) !== null)
       .map(song => ({
         id: song.deezerId,
         title: song.title,
         artist: song.artist,
         year: song.year,
-        previewUrl: getPreviewUrl(song.deezerId),
+        previewUrl: `/api/preview/${song.deezerId}`,
       }))
-      .filter(card => card.previewUrl !== null)
   );
 
   room.deck = deck;

@@ -4,7 +4,6 @@ import AudioPlayer from '../components/game/AudioPlayer';
 import CurrentCard from '../components/game/CurrentCard';
 import Timeline from '../components/game/Timeline';
 import TurnBanner from '../components/game/TurnBanner';
-import ScoreBoard from '../components/game/ScoreBoard';
 import FeedbackOverlay from '../components/game/FeedbackOverlay';
 
 export default function GamePage() {
@@ -25,8 +24,10 @@ export default function GamePage() {
     if (lastResult) setFeedbackResult(lastResult);
   }, [lastResult]);
 
+  const otherPlayers = players.filter(p => p.id !== playerId);
+
   return (
-    <div className="min-h-screen flex flex-col p-4 gap-4 max-w-2xl mx-auto">
+    <div className="min-h-screen flex flex-col p-4 gap-4 max-w-5xl mx-auto">
       {/* Header */}
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-black bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
@@ -48,14 +49,38 @@ export default function GamePage() {
 
       {/* My timeline */}
       <div className="bg-gray-800 rounded-xl p-4">
-        <h2 className="text-sm text-gray-400 mb-3">
-          Ta timeline — {myTimeline.length} carte{myTimeline.length !== 1 ? 's' : ''}
-        </h2>
+        <div className="flex items-center justify-between mb-3">
+          <h2 className="text-sm text-gray-400">
+            Ta timeline — {myTimeline.length} carte{myTimeline.length !== 1 ? 's' : ''}
+          </h2>
+          <span className="text-xs font-bold text-yellow-400">{me?.score ?? 0}/10</span>
+        </div>
         <Timeline timeline={myTimeline} isMyTurn={isMyTurn} />
       </div>
 
-      {/* Scores */}
-      <ScoreBoard players={players} currentPlayerId={currentTurnPlayerId} />
+      {/* Other players' timelines */}
+      {otherPlayers.length > 0 && (
+        <div className="space-y-3">
+          <h2 className="text-sm text-gray-400 uppercase tracking-wide">Timelines des autres</h2>
+          {otherPlayers.map(p => (
+            <div
+              key={p.id}
+              className={`bg-gray-800 rounded-xl p-3 ${p.id === currentTurnPlayerId ? 'ring-1 ring-purple-500' : ''}`}
+            >
+              <div className="flex items-center gap-2 mb-2">
+                {p.id === currentTurnPlayerId && <span className="text-purple-400 text-xs">▶</span>}
+                <span className="text-sm font-semibold text-white">{p.name}</span>
+                <span className="text-xs text-yellow-400 font-bold ml-auto">{p.score}/10</span>
+              </div>
+              {p.timeline.length === 0 ? (
+                <p className="text-xs text-gray-600 italic px-2">Aucune carte encore</p>
+              ) : (
+                <Timeline timeline={p.timeline} isMyTurn={false} compact />
+              )}
+            </div>
+          ))}
+        </div>
+      )}
 
       {/* Server error */}
       {error && (

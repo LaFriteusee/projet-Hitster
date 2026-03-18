@@ -1,7 +1,16 @@
 import React from 'react';
 import socket from '../../socket';
 
-function TimelineCard({ card }) {
+function TimelineCard({ card, compact }) {
+  if (compact) {
+    return (
+      <div className="flex-shrink-0 w-20 bg-gray-700 rounded-lg p-1.5 text-center shadow">
+        <div className="text-yellow-400 font-bold text-xs">{card.year}</div>
+        <div className="text-[10px] text-white font-semibold mt-0.5 leading-tight line-clamp-2">{card.title}</div>
+        <div className="text-[10px] text-gray-400 mt-0.5 line-clamp-1">{card.artist}</div>
+      </div>
+    );
+  }
   return (
     <div className="flex-shrink-0 w-28 bg-gray-700 rounded-lg p-2 text-center shadow">
       <div className="text-yellow-400 font-bold text-sm">{card.year}</div>
@@ -32,10 +41,7 @@ function TimelineSlot({ position, isMyTurn }) {
   );
 }
 
-export default function Timeline({ timeline, isMyTurn }) {
-  // Alternating: slot, card, slot, card, ..., slot
-  // positions: 0 = before first card, 1 = after first card, etc.
-
+export default function Timeline({ timeline, isMyTurn, compact = false }) {
   return (
     <div className="w-full overflow-x-auto pb-2">
       <div className="flex items-center min-w-max gap-1 px-2">
@@ -46,7 +52,7 @@ export default function Timeline({ timeline, isMyTurn }) {
             <TimelineSlot position={0} isMyTurn={isMyTurn} />
             {timeline.map((card, i) => (
               <React.Fragment key={card.id + i}>
-                <TimelineCard card={card} />
+                <TimelineCard card={card} compact={compact} />
                 <TimelineSlot position={i + 1} isMyTurn={isMyTurn} />
               </React.Fragment>
             ))}
