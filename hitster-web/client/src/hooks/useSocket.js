@@ -13,16 +13,16 @@ export function useSocketListeners() {
   useEffect(() => {
     socket.connect();
 
-    socket.on('room:created', ({ roomCode, playerId, playerName }) => {
+    socket.on('room:created', ({ roomCode, playerId, playerName, genres }) => {
       setIdentity(playerId, playerName);
-      setRoom(roomCode);
+      setRoom(roomCode, genres);
       navigate(`/lobby/${roomCode}`);
     });
 
-    socket.on('room:joined', ({ roomCode, playerId, players }) => {
+    socket.on('room:joined', ({ roomCode, playerId, players, genres }) => {
       const me = players.find(p => p.id === playerId);
       setIdentity(playerId, me?.name ?? '');
-      setRoom(roomCode);
+      setRoom(roomCode, genres);
       setPlayers(players);
       navigate(`/lobby/${roomCode}`);
     });

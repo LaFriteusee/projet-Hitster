@@ -1,6 +1,6 @@
 const { shuffle } = require('./utils/shuffle');
 const songsData = require('../data/songs.json');
-const { fetchPreviewUrls } = require('./deezer');
+const { getPreviewUrl } = require('./previewCache');
 
 const WIN_SCORE = 10;
 
@@ -15,19 +15,17 @@ function isPlacementCorrect(timeline, card, position) {
   return true;
 }
 
-async function startGame(room) {
-  // Fetch fresh preview URLs from Deezer (stored URLs expire after ~1 week)
-  const deezerIds = songsData.map(s => s.deezerId);
-  const previewMap = await fetchPreviewUrls(deezerIds);
-
+function startGame(room) {
+  const genres = new Set(room.genres);
   const deck = shuffle(
     songsData
+      .filter(song => genres.has(song.genre))
       .map(song => ({
         id: song.deezerId,
         title: song.title,
         artist: song.artist,
         year: song.year,
-        previewUrl: previewMap.get(song.deezerId) || null,
+        previewUrl: getPreviewUrl(song.deezerId),
       }))
       .filter(card => card.previewUrl !== null)
   );

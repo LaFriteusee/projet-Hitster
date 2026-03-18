@@ -2,8 +2,17 @@ import React from 'react';
 import socket from '../socket';
 import useGameStore from '../store/gameStore';
 
+const GENRE_LABELS = {
+  rock:     '🎸 Rock',
+  pop:      '🎤 Pop',
+  hiphop:   '🎧 Hip-Hop',
+  electro:  '🎹 Électro',
+  rnb:      '🎷 R&B / Soul',
+  francais: '🇫🇷 Français',
+};
+
 export default function LobbyPage() {
-  const { roomCode, players, playerId, error } = useGameStore();
+  const { roomCode, players, playerId, genres, error } = useGameStore();
   const me = players.find(p => p.id === playerId);
   const isHost = me?.isHost;
 
@@ -38,6 +47,20 @@ export default function LobbyPage() {
         {error && (
           <div className="bg-red-900/50 border border-red-500 text-red-300 rounded-lg p-3 mb-4 text-sm">
             {error}
+          </div>
+        )}
+
+        {/* Genres */}
+        {genres && genres.length > 0 && (
+          <div className="bg-gray-800 rounded-xl p-4 mb-4 shadow-xl">
+            <h2 className="text-sm text-gray-400 mb-3">Genres sélectionnés</h2>
+            <div className="flex flex-wrap gap-2">
+              {genres.map(g => (
+                <span key={g} className="px-3 py-1 bg-purple-700/60 text-purple-200 rounded-full text-sm font-medium">
+                  {GENRE_LABELS[g] ?? g}
+                </span>
+              ))}
+            </div>
           </div>
         )}
 

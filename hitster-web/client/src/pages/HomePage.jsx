@@ -2,18 +2,34 @@ import React, { useState } from 'react';
 import socket from '../socket';
 import useGameStore from '../store/gameStore';
 
+const GENRE_OPTIONS = [
+  { id: 'rock',     label: '🎸 Rock' },
+  { id: 'pop',      label: '🎤 Pop' },
+  { id: 'hiphop',   label: '🎧 Hip-Hop' },
+  { id: 'electro',  label: '🎹 Électro' },
+  { id: 'rnb',      label: '🎷 R&B / Soul' },
+  { id: 'francais', label: '🇫🇷 Français' },
+];
+
 export default function HomePage() {
   const [name, setName] = useState('');
   const [code, setCode] = useState('');
   const [tab, setTab] = useState('create'); // 'create' | 'join'
+  const [selectedGenres, setSelectedGenres] = useState(GENRE_OPTIONS.map(g => g.id));
   const { error, clearError, setIdentity } = useGameStore();
+
+  const toggleGenre = (id) => {
+    setSelectedGenres(prev =>
+      prev.includes(id) ? prev.filter(g => g !== id) : [...prev, id]
+    );
+  };
 
   const handleCreate = (e) => {
     e.preventDefault();
-    if (!name.trim()) return;
+    if (!name.trim() || selectedGenres.length === 0) return;
     clearError();
     setIdentity(null, name.trim());
-    socket.emit('room:create', { playerName: name.trim() });
+    socket.emit('room:create', { playerName: name.trim(), genres: selectedGenres });
   };
 
   const handleJoin = (e) => {
@@ -66,6 +82,31 @@ export default function HomePage() {
             />
           </div>
 
+          {tab === 'create' && (
+            <div className="mb-5">
+              <label className="block text-sm text-gray-400 mb-2">Genres musicaux</label>
+              <div className="grid grid-cols-2 gap-2">
+                {GENRE_OPTIONS.map(g => (
+                  <button
+                    key={g.id}
+                    type="button"
+                    onClick={() => toggleGenre(g.id)}
+                    className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors text-left ${
+                      selectedGenres.includes(g.id)
+                        ? 'bg-purple-700 text-white'
+                        : 'bg-gray-700 text-gray-400 hover:bg-gray-600'
+                    }`}
+                  >
+                    {g.label}
+                  </button>
+                ))}
+              </div>
+              {selectedGenres.length === 0 && (
+                <p className="text-red-400 text-xs mt-2">Sélectionne au moins un genre.</p>
+              )}
+            </div>
+          )}
+
           {tab === 'join' && (
             <div className="mb-4">
               <label className="block text-sm text-gray-400 mb-1">Code de la salle</label>
@@ -83,7 +124,7 @@ export default function HomePage() {
           {tab === 'create' ? (
             <button
               onClick={handleCreate}
-              disabled={!name.trim()}
+              disabled={!name.trim() || selectedGenres.length === 0}
               className="w-full py-3 bg-purple-600 hover:bg-purple-500 disabled:opacity-40 disabled:cursor-not-allowed rounded-lg font-semibold transition-colors"
             >
               Créer la partie

@@ -2,12 +2,15 @@ const { generateCode } = require('./utils/codeGenerator');
 
 const rooms = new Map(); // code -> room
 
-function createRoom(hostId, hostName) {
+const ALL_GENRES = ['rock', 'pop', 'hiphop', 'electro', 'rnb', 'francais'];
+
+function createRoom(hostId, hostName, genres) {
   const code = generateCode(new Set(rooms.keys()));
   const room = {
     code,
     hostId,
     status: 'lobby',
+    genres: (genres && genres.length > 0) ? genres : ALL_GENRES,
     players: new Map([[hostId, { id: hostId, name: hostName, isHost: true, score: 0, timeline: [] }]]),
     deck: [],
     currentPlayerIndex: 0,
@@ -80,4 +83,4 @@ setInterval(() => {
   }
 }, 5 * 60 * 1000);
 
-module.exports = { createRoom, getRoom, joinRoom, removePlayer, getPlayers };
+module.exports = { createRoom, getRoom, joinRoom, removePlayer, getPlayers, ALL_GENRES };

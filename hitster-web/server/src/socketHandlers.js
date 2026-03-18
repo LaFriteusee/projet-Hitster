@@ -5,12 +5,12 @@ module.exports = function registerHandlers(io) {
   io.on('connection', (socket) => {
     let currentRoomCode = null;
 
-    socket.on('room:create', ({ playerName }) => {
+    socket.on('room:create', ({ playerName, genres }) => {
       if (!playerName?.trim()) return socket.emit('room:error', { message: 'Nom invalide.' });
-      const room = createRoom(socket.id, playerName.trim());
+      const room = createRoom(socket.id, playerName.trim(), genres);
       currentRoomCode = room.code;
       socket.join(room.code);
-      socket.emit('room:created', { roomCode: room.code, playerId: socket.id, playerName: playerName.trim() });
+      socket.emit('room:created', { roomCode: room.code, playerId: socket.id, playerName: playerName.trim(), genres: room.genres });
     });
 
     socket.on('room:join', ({ roomCode, playerName }) => {
@@ -23,29 +23,24 @@ module.exports = function registerHandlers(io) {
       socket.join(room.code);
 
       const players = getPlayers(room);
-      socket.emit('room:joined', { roomCode: room.code, playerId: socket.id, players });
+      socket.emit('room:joined', { roomCode: room.code, playerId: socket.id, players, genres: room.genres });
       socket.to(room.code).emit('room:updated', { players });
     });
 
-    socket.on('game:start', async () => {
+    socket.on('game:start', () => {
       const room = getRoom(currentRoomCode);
       if (!room) return socket.emit('room:error', { message: 'Salle introuvable.' });
       if (room.hostId !== socket.id) return socket.emit('room:error', { message: 'Seul le créateur peut démarrer.' });
       if (room.status !== 'lobby') return socket.emit('room:error', { message: 'Partie déjà démarrée.' });
       if (room.players.size < 1) return socket.emit('room:error', { message: 'Pas assez de joueurs.' });
 
-      try {
-        await startGame(room);
-        const gameState = getGameState(room);
-        io.to(room.code).emit('game:started', { gameState });
-        io.to(room.code).emit('turn:started', {
-          card: getPublicCard(room.currentCard),
-          playerId: room.playerOrder[room.currentPlayerIndex],
-        });
-      } catch (err) {
-        console.error('startGame error:', err);
-        socket.emit('room:error', { message: 'Erreur au démarrage (Spotify API).' });
-      }
+      startGame(room);
+      const gameState = getGameState(room);
+      io.to(room.code).emit('game:started', { gameState });
+      io.to(room.code).emit('turn:started', {
+        card: getPublicCard(room.currentCard),
+        playerId: room.playerOrder[room.currentPlayerIndex],
+      });
     });
 
     socket.on('turn:place_card', ({ position }) => {

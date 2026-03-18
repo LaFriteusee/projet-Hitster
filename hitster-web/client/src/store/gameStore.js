@@ -8,6 +8,7 @@ const useGameStore = create((set) => ({
   // Room
   roomCode: null,
   players: [],
+  genres: [],
 
   // Game
   status: 'idle', // idle | lobby | playing | finished
@@ -30,7 +31,7 @@ const useGameStore = create((set) => ({
 
   // Actions
   setIdentity: (playerId, playerName) => set({ playerId, playerName }),
-  setRoom: (roomCode) => set({ roomCode, status: 'lobby', error: null }),
+  setRoom: (roomCode, genres) => set({ roomCode, genres: genres ?? [], status: 'lobby', error: null }),
   setPlayers: (players) => set({ players }),
   setGameState: (gameState) => set({
     status: gameState.status,
