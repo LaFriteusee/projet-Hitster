@@ -1,0 +1,604 @@
+[
+  {
+    "deezerId": 116348340,
+    "title": "Twist And Shout (Remastered 2009)",
+    "artist": "The Beatles",
+    "year": 1963,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/9/f/a/0/9fa89f97b7ec94f95b7b85db845740dd.mp3?hdnea=exp=1773868402~acl=/api/1/1/9/f/a/0/9fa89f97b7ec94f95b7b85db845740dd.mp3*~data=user_id=0,application_id=42~hmac=3e6284f6c7410a5dcc680f81d39c4644b995581ff4036e5535451e12d39b7ace"
+  },
+  {
+    "deezerId": 136341550,
+    "title": "My Generation",
+    "artist": "The Who",
+    "year": 1965,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/7/e/3/0/7e32ae92364ce07e54542402efe32b32.mp3?hdnea=exp=1773868403~acl=/api/1/1/7/e/3/0/7e32ae92364ce07e54542402efe32b32.mp3*~data=user_id=0,application_id=42~hmac=f37d1be088a16a8b01fa66172332ec1b409c67b17e15c83b05e22f97439654b0"
+  },
+  {
+    "deezerId": 116348632,
+    "title": "Hey Jude (Remastered 2015)",
+    "artist": "The Beatles",
+    "year": 1968,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/e/3/0/be3c33e5b05a25dc63b8951748615d74.mp3?hdnea=exp=1773868403~acl=/api/1/1/b/e/3/0/be3c33e5b05a25dc63b8951748615d74.mp3*~data=user_id=0,application_id=42~hmac=e54f62e7b1e4f9db9d13e4dc9b105003ed0ab0d063f56e1badbdea148348d79b"
+  },
+  {
+    "deezerId": 107465566,
+    "title": "Space Oddity (2015 Remaster)",
+    "artist": "David Bowie",
+    "year": 1969,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/7/d/3/0/7d342da36946904f066ef209124d086e.mp3?hdnea=exp=1773868403~acl=/api/1/1/7/d/3/0/7d342da36946904f066ef209124d086e.mp3*~data=user_id=0,application_id=42~hmac=c1df7eccea7d7d8bfe66e80064116ad94e72712e1b04bc5740b74c5df1dab708"
+  },
+  {
+    "deezerId": 116348656,
+    "title": "Let It Be (Remastered 2009)",
+    "artist": "The Beatles",
+    "year": 1970,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/a/f/5/0/af5b351b100513b1c167e5ed96b7ece3.mp3?hdnea=exp=1773868404~acl=/api/1/1/a/f/5/0/af5b351b100513b1c167e5ed96b7ece3.mp3*~data=user_id=0,application_id=42~hmac=e46f17211442efbcf4e61793e205b77fd35b9e2572767675ad2c7e2b5793a9d0"
+  },
+  {
+    "deezerId": 4125582,
+    "title": "Brown Sugar (Remastered 2009)",
+    "artist": "The Rolling Stones",
+    "year": 1971,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/a/1/7/0/a1760b1d47c4fbdd5618f20d9f5f5848.mp3?hdnea=exp=1773868404~acl=/api/1/1/a/1/7/0/a1760b1d47c4fbdd5618f20d9f5f5848.mp3*~data=user_id=0,application_id=42~hmac=5647969b49766a9dde80b72f0107617838c3288d15a99c8f967a3d24bee91bb6"
+  },
+  {
+    "deezerId": 88003859,
+    "title": "Stairway to Heaven (Remaster)",
+    "artist": "Led Zeppelin",
+    "year": 1971,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/6/0/26692783366247f9e456227bc4eb9550.mp3?hdnea=exp=1773868405~acl=/api/1/1/2/6/6/0/26692783366247f9e456227bc4eb9550.mp3*~data=user_id=0,application_id=42~hmac=5cbab15bee8b48717301c9b400605316f023775ed063ba3729ff453ba37127ad"
+  },
+  {
+    "deezerId": 596034702,
+    "title": "Superstition",
+    "artist": "Stevie Wonder",
+    "year": 1972,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/7/7/0/2777f372b6b097206c7a50a5ef794c7a.mp3?hdnea=exp=1773868405~acl=/api/1/1/2/7/7/0/2777f372b6b097206c7a50a5ef794c7a.mp3*~data=user_id=0,application_id=42~hmac=e3dfd9e3563b37a52528ae52fc0d7b6645819bd7b00c2e60d2576c867da80c25"
+  },
+  {
+    "deezerId": 114422238,
+    "title": "Jolene",
+    "artist": "Dolly Parton",
+    "year": 1973,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/3/9/1/0/39196bba724775ae89ae4fdd5a528e84.mp3?hdnea=exp=1773868406~acl=/api/1/1/3/9/1/0/39196bba724775ae89ae4fdd5a528e84.mp3*~data=user_id=0,application_id=42~hmac=aa7f1fd805767fd2a711a04b2ab8acab4edd5a53af9e1dcdca47cba787baa27c"
+  },
+  {
+    "deezerId": 568115892,
+    "title": "Bohemian Rhapsody (2011 Remaster)",
+    "artist": "Queen",
+    "year": 1975,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/1/3/4/0/134621d9e549da7c8a74b84c8cd2f066.mp3?hdnea=exp=1773868406~acl=/api/1/1/1/3/4/0/134621d9e549da7c8a74b84c8cd2f066.mp3*~data=user_id=0,application_id=42~hmac=92228efe5d18e9a8e2dc656f51a3c919ee705372a9e9ef967e5ec679228e712a"
+  },
+  {
+    "deezerId": 426703682,
+    "title": "Hotel California (2013 Remaster)",
+    "artist": "Eagles",
+    "year": 1977,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/e/0/0/de0b52925103149e94a7123d0c0cb6c4.mp3?hdnea=exp=1773868407~acl=/api/1/1/d/e/0/0/de0b52925103149e94a7123d0c0cb6c4.mp3*~data=user_id=0,application_id=42~hmac=7c990d3476eb456404dc2f9d44679108a3e76cb8d91d6b1d34a44990fa5cca1c"
+  },
+  {
+    "deezerId": 72060062,
+    "title": "Le Freak",
+    "artist": "CHIC",
+    "year": 1978,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/b/e/0/dbe27e246e08fa7bad6dd09b9af59bb0.mp3?hdnea=exp=1773868407~acl=/api/1/1/d/b/e/0/dbe27e246e08fa7bad6dd09b9af59bb0.mp3*~data=user_id=0,application_id=42~hmac=d809425b558c701039e73acfe7b46c55beb422648c5e2aa13486ef60bbc4fa2f"
+  },
+  {
+    "deezerId": 975366,
+    "title": "I Will Survive (Rerecorded)",
+    "artist": "Gloria Gaynor",
+    "year": 1978,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/4/0/b64e6b53924a0f3c72795e5fbdac5356.mp3?hdnea=exp=1773868408~acl=/api/1/1/b/6/4/0/b64e6b53924a0f3c72795e5fbdac5356.mp3*~data=user_id=0,application_id=42~hmac=0c49bf70c426b9c72407577693b41ddbca381e958757dd8f8ef1cae10b9230e9"
+  },
+  {
+    "deezerId": 2525877,
+    "title": "Roxanne",
+    "artist": "The Police",
+    "year": 1978,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/2/0/0/d206ca360d6137bb0e35318005c622ed.mp3?hdnea=exp=1773868408~acl=/api/1/1/d/2/0/0/d206ca360d6137bb0e35318005c622ed.mp3*~data=user_id=0,application_id=42~hmac=795319cc7f3d2e38ef874b33d4189b9e900833d7629fefce7363beba67e8ac25"
+  },
+  {
+    "deezerId": 3121608,
+    "title": "Heart Of Glass (Single Version / Remastered)",
+    "artist": "Blondie",
+    "year": 1978,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/3/8/d/0/38d96e69eff16bee68cd662b44c39c13.mp3?hdnea=exp=1773868408~acl=/api/1/1/3/8/d/0/38d96e69eff16bee68cd662b44c39c13.mp3*~data=user_id=0,application_id=42~hmac=a2d5a189a1cd761a76f56ff56ecdfd38a3bb63aa935212a74df15c916274f204"
+  },
+  {
+    "deezerId": 404691712,
+    "title": "Ring My Bell",
+    "artist": "Anita Ward",
+    "year": 1979,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/9/e/0/d9ec804eda12421ed96448a8926e0221.mp3?hdnea=exp=1773868409~acl=/api/1/1/d/9/e/0/d9ec804eda12421ed96448a8926e0221.mp3*~data=user_id=0,application_id=42~hmac=0fe77afbb14e9518d91710c2c96da15723f81290ea1adfd84587a99f576ccbc7"
+  },
+  {
+    "deezerId": 568116022,
+    "title": "Another One Bites The Dust (2011 Remaster)",
+    "artist": "Queen",
+    "year": 1980,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/3/2/6/0/3268abe19aabca2a4a282229dcb912e8.mp3?hdnea=exp=1773868409~acl=/api/1/1/3/2/6/0/3268abe19aabca2a4a282229dcb912e8.mp3*~data=user_id=0,application_id=42~hmac=16dd92ea6d30e92a69bbcf96ac84b62f74c2ab38e8509a21c094e4b5fc442e01"
+  },
+  {
+    "deezerId": 625643,
+    "title": "Don't Stop Believin'",
+    "artist": "Journey",
+    "year": 1981,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/2/0/0/d2075fdf5e55ef0a8f8383cefd6fc51b.mp3?hdnea=exp=1773868410~acl=/api/1/1/d/2/0/0/d2075fdf5e55ef0a8f8383cefd6fc51b.mp3*~data=user_id=0,application_id=42~hmac=08b98c27949e028cb2ae477217d01164a4df7d7ba26f573b687e6827eb2e7944"
+  },
+  {
+    "deezerId": 576431,
+    "title": "Eye of the Tiger",
+    "artist": "Survivor",
+    "year": 1982,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/6/a/6/0/6a6cec63a2a62ad17c65c3706e216ce8.mp3?hdnea=exp=1773868411~acl=/api/1/1/6/a/6/0/6a6cec63a2a62ad17c65c3706e216ce8.mp3*~data=user_id=0,application_id=42~hmac=1914e6769dccaf05d57920ba87cc02f32d6e5b466fc39dd01435b0906757600d"
+  },
+  {
+    "deezerId": 4603408,
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "year": 1982,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/e/6/e/0/e6e0f8717b1e6353e2abf797c6849889.mp3?hdnea=exp=1773868411~acl=/api/1/1/e/6/e/0/e6e0f8717b1e6353e2abf797c6849889.mp3*~data=user_id=0,application_id=42~hmac=bcab2e46f6c4b11aef9b7aa3569b74261332b991d6d273bccf06f30d6a068f54"
+  },
+  {
+    "deezerId": 1079668,
+    "title": "Africa",
+    "artist": "Toto",
+    "year": 1982,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/4/6/0/d46762f2025f13175f2fd2c062b46182.mp3?hdnea=exp=1773868412~acl=/api/1/1/d/4/6/0/d46762f2025f13175f2fd2c062b46182.mp3*~data=user_id=0,application_id=42~hmac=0a49532d6bc4d20b30878c3ffcb7f9ea47e7492420adc4ba778c246af6fc83b3"
+  },
+  {
+    "deezerId": 72194071,
+    "title": "Girls Just Want to Have Fun",
+    "artist": "Cyndi Lauper",
+    "year": 1983,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/a/6/f/0/a6fee1bea8f3ec24b4b86785b197b09b.mp3?hdnea=exp=1773868412~acl=/api/1/1/a/6/f/0/a6fee1bea8f3ec24b4b86785b197b09b.mp3*~data=user_id=0,application_id=42~hmac=643de73478542a8f080bb0e5d5283ecf568cb3ea3912b72040a697c2ec006c64"
+  },
+  {
+    "deezerId": 3130319,
+    "title": "True (Single Edit)",
+    "artist": "Spandau Ballet",
+    "year": 1983,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/a/d/2/0/ad23253dcb48233f2bea4ff40a339d34.mp3?hdnea=exp=1773868412~acl=/api/1/1/a/d/2/0/ad23253dcb48233f2bea4ff40a339d34.mp3*~data=user_id=0,application_id=42~hmac=7f605b08c02e8199303c031053783839790f585f0fd879fa5d1b9eb879b8ac66"
+  },
+  {
+    "deezerId": 532349,
+    "title": "Total Eclipse of the Heart",
+    "artist": "Bonnie Tyler",
+    "year": 1983,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/4/e/d/0/4ed3a7fbb98730781ae3c6d85ca75fab.mp3?hdnea=exp=1773868413~acl=/api/1/1/4/e/d/0/4ed3a7fbb98730781ae3c6d85ca75fab.mp3*~data=user_id=0,application_id=42~hmac=cdf86e0ad953ea93fcc7c50b71d40d1873c6a34a148e30f258a8a85984fe3763"
+  },
+  {
+    "deezerId": 97098410,
+    "title": "Jump (2015 Remaster)",
+    "artist": "Van Halen",
+    "year": 1984,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/4/5/6/0/4564585fd721c9bf1df04fbf95f2ba9a.mp3?hdnea=exp=1773868413~acl=/api/1/1/4/5/6/0/4564585fd721c9bf1df04fbf95f2ba9a.mp3*~data=user_id=0,application_id=42~hmac=9deeef6295cbcb6189f155622d65e82edb50fec723dc0f360089062438266063"
+  },
+  {
+    "deezerId": 15194531,
+    "title": "Wake Me Up Before You Go-Go",
+    "artist": "Wham!",
+    "year": 1984,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/6/b/0/b6b916879db11a5fcf980c6261c46b54.mp3?hdnea=exp=1773868414~acl=/api/1/1/b/6/b/0/b6b916879db11a5fcf980c6261c46b54.mp3*~data=user_id=0,application_id=42~hmac=d1b98cd61106c808faa95286dc11fd759d12ad1cac59fdc529cd51071fb8151b"
+  },
+  {
+    "deezerId": 723861,
+    "title": "Material Girl",
+    "artist": "Madonna",
+    "year": 1984,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/0/b/c/0/0bc4e106a72207dd283a493c33d9abaf.mp3?hdnea=exp=1773868414~acl=/api/1/1/0/b/c/0/0bc4e106a72207dd283a493c33d9abaf.mp3*~data=user_id=0,application_id=42~hmac=fc2d988a82dc8fedca7fe8d1b8790fbc0d08820e7bdbdb83fd4b4dce64f783f8"
+  },
+  {
+    "deezerId": 911462792,
+    "title": "Holding Out for a Hero (From \"Footloose\" Soundtrack)",
+    "artist": "Bonnie Tyler",
+    "year": 1984,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/2/f/0/b2fe2763aaa3386144f12b829599724c.mp3?hdnea=exp=1773868415~acl=/api/1/1/b/2/f/0/b2fe2763aaa3386144f12b829599724c.mp3*~data=user_id=0,application_id=42~hmac=9838968d72bf769e918ee216e6a0868270fc4b8f505e2242537c8af77899474f"
+  },
+  {
+    "deezerId": 664107,
+    "title": "Take on Me",
+    "artist": "a-ha",
+    "year": 1985,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/1/9/0/b19c969e9d7193a3fa7e5880fed2aefb.mp3?hdnea=exp=1773868415~acl=/api/1/1/b/1/9/0/b19c969e9d7193a3fa7e5880fed2aefb.mp3*~data=user_id=0,application_id=42~hmac=79c2ebf595ed760e1c2b0ef3e50266342f9615130b3aec93e62955458af262b2"
+  },
+  {
+    "deezerId": 88845911,
+    "title": "Everybody Wants To Rule The World",
+    "artist": "Tears For Fears",
+    "year": 1985,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/e/5/0/de513124c71d6357ce806e3a7584ea86.mp3?hdnea=exp=1773868416~acl=/api/1/1/d/e/5/0/de513124c71d6357ce806e3a7584ea86.mp3*~data=user_id=0,application_id=42~hmac=5cf8809b4a6d2f427cc3f9fc7f8d5b37f668a772ddef62d888ffa9c4a925f9a3"
+  },
+  {
+    "deezerId": 5079647,
+    "title": "Don't You (Forget About Me)",
+    "artist": "Simple Minds",
+    "year": 1985,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/e/f/d/0/efd6e58a12296e620f6080638f28203b.mp3?hdnea=exp=1773868416~acl=/api/1/1/e/f/d/0/efd6e58a12296e620f6080638f28203b.mp3*~data=user_id=0,application_id=42~hmac=481f7ea7002dfcc2bfaf501dcfb1b185f8df8574490a8ebc36f9a5f460c46d84"
+  },
+  {
+    "deezerId": 14408104,
+    "title": "Never Gonna Give You Up",
+    "artist": "Rick Astley",
+    "year": 1987,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/e/7/7/0/e773d9a1121ced48f2e74bca4271699c.mp3?hdnea=exp=1773868417~acl=/api/1/1/e/7/7/0/e773d9a1121ced48f2e74bca4271699c.mp3*~data=user_id=0,application_id=42~hmac=13226b73115edc97b7569bfadb3fd7fb545d86abc6a190a94059b8304e467730"
+  },
+  {
+    "deezerId": 518458172,
+    "title": "Sweet Child O' Mine",
+    "artist": "Guns N' Roses",
+    "year": 1987,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/5/9/1/0/59115eec88ea0bc7742eaba93facf49b.mp3?hdnea=exp=1773868417~acl=/api/1/1/5/9/1/0/59115eec88ea0bc7742eaba93facf49b.mp3*~data=user_id=0,application_id=42~hmac=a3a92965d26b4f430bd981686a049bf76ec113aa8eeff3165a3427beea502361"
+  },
+  {
+    "deezerId": 3819736,
+    "title": "La Bamba",
+    "artist": "Los Lobos",
+    "year": 1987,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/f/9/9/0/f99fe7582d1c44dd2c3be0794fa81eaf.mp3?hdnea=exp=1773868418~acl=/api/1/1/f/9/9/0/f99fe7582d1c44dd2c3be0794fa81eaf.mp3*~data=user_id=0,application_id=42~hmac=5c2501e017f97413c7c536fa1335b7bdd2f35dd5d520edf3c33ced6358657df8"
+  },
+  {
+    "deezerId": 347363311,
+    "title": "With Or Without You",
+    "artist": "U2",
+    "year": 1987,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/e/7/b/0/e7bd638df66aac0766c60ffa2ba5142f.mp3?hdnea=exp=1773868418~acl=/api/1/1/e/7/b/0/e7bd638df66aac0766c60ffa2ba5142f.mp3*~data=user_id=0,application_id=42~hmac=94c139db9925b7d5beea63f9c119c27bdb5af2c0b620b4b73a13063780e7fc25"
+  },
+  {
+    "deezerId": 664507,
+    "title": "Like a Prayer",
+    "artist": "Madonna",
+    "year": 1989,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/8/3/5/0/83568d6e8eab5d7d29effe9bf3a473ce.mp3?hdnea=exp=1773868419~acl=/api/1/1/8/3/5/0/83568d6e8eab5d7d29effe9bf3a473ce.mp3*~data=user_id=0,application_id=42~hmac=6eb46202f7719781fffc544a4a2c848ac4e5caa8fbd6415e259d09a7c1aae7e4"
+  },
+  {
+    "deezerId": 13129208,
+    "title": "Black or White (Single Version)",
+    "artist": "Michael Jackson",
+    "year": 1991,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/5/f/c/0/5fca85203f06b098dcb7a506abe5b461.mp3?hdnea=exp=1773868419~acl=/api/1/1/5/f/c/0/5fca85203f06b098dcb7a506abe5b461.mp3*~data=user_id=0,application_id=42~hmac=bde93974a4384a5fada58a37727495071cf90f4e5b255338c5cc4846659a87b6"
+  },
+  {
+    "deezerId": 13693497,
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "year": 1991,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/0/9/0/209a06199fb400a39068b4bae831b0e3.mp3?hdnea=exp=1773868420~acl=/api/1/1/2/0/9/0/209a06199fb400a39068b4bae831b0e3.mp3*~data=user_id=0,application_id=42~hmac=49282c1278e6b3fe94faaa0ac2861a912d08d3a72307613b083225596655654c"
+  },
+  {
+    "deezerId": 1169683,
+    "title": "November Rain",
+    "artist": "Guns N' Roses",
+    "year": 1991,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/c/8/4/0/c841da8f662caa4e9b9abcd69471ea41.mp3?hdnea=exp=1773868420~acl=/api/1/1/c/8/4/0/c841da8f662caa4e9b9abcd69471ea41.mp3*~data=user_id=0,application_id=42~hmac=74dc9b340cbd6192d0d1e0642a1a7bcaf92328085abc23fae4a5a6bb85f8a99f"
+  },
+  {
+    "deezerId": 136334560,
+    "title": "Losing My Religion",
+    "artist": "R.E.M.",
+    "year": 1991,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/4/e/f/0/4ef0a38d9159a0f45d5f16399db90862.mp3?hdnea=exp=1773868421~acl=/api/1/1/4/e/f/0/4ef0a38d9159a0f45d5f16399db90862.mp3*~data=user_id=0,application_id=42~hmac=df1404a64d03965d8899d97a4bb1165198569b5ab8882885b2de13a601298336"
+  },
+  {
+    "deezerId": 138547415,
+    "title": "Creep",
+    "artist": "Radiohead",
+    "year": 1992,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/9/c/0/b9c4cde36fbe176cc3e84dc08fc0611b.mp3?hdnea=exp=1773868421~acl=/api/1/1/b/9/c/0/b9c4cde36fbe176cc3e84dc08fc0611b.mp3*~data=user_id=0,application_id=42~hmac=419013285b44ebf21b3d4496b6c029499665244362ff651a39e20a802219eee4"
+  },
+  {
+    "deezerId": 980117,
+    "title": "Zombie",
+    "artist": "The Cranberries",
+    "year": 1994,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/9/7/b/0/97b2b5adcc8e153065db83356890ecd4.mp3?hdnea=exp=1773868422~acl=/api/1/1/9/7/b/0/97b2b5adcc8e153065db83356890ecd4.mp3*~data=user_id=0,application_id=42~hmac=b480307e3c9926eb5d78511c4f9654de321ce6557c94e347c23f6acfb41c4102"
+  },
+  {
+    "deezerId": 1043894,
+    "title": "Waterfalls",
+    "artist": "TLC",
+    "year": 1995,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/a/0/0/2a0ffb8a29cf34fd5e1c235648921ce1.mp3?hdnea=exp=1773868422~acl=/api/1/1/2/a/0/0/2a0ffb8a29cf34fd5e1c235648921ce1.mp3*~data=user_id=0,application_id=42~hmac=33228291c95415f76ea70409b3d38ee19dbcd32cd7b6abf79c7c4a62235ca13a"
+  },
+  {
+    "deezerId": 1584416372,
+    "title": "Gangsta's Paradise",
+    "artist": "Coolio",
+    "year": 1995,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/3/f/1/0/3f19df3b484b0ab61f5e2de5820ceac2.mp3?hdnea=exp=1773868423~acl=/api/1/1/3/f/1/0/3f19df3b484b0ab61f5e2de5820ceac2.mp3*~data=user_id=0,application_id=42~hmac=aab013b707dee685be70e91888b077b2e40ca34fbc20cba47820eb7039bedb68"
+  },
+  {
+    "deezerId": 3133738,
+    "title": "Wannabe",
+    "artist": "Spice Girls",
+    "year": 1996,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/8/c/0/b8cac96000eea3ee3fb1c6c363c2d95e.mp3?hdnea=exp=1773868423~acl=/api/1/1/b/8/c/0/b8cac96000eea3ee3fb1c6c363c2d95e.mp3*~data=user_id=0,application_id=42~hmac=9dc44c5a0a78be7fe028f6591cd19774c7c5842565c7e040e0a66e21bf481145"
+  },
+  {
+    "deezerId": 4290138,
+    "title": "Iris",
+    "artist": "The Goo Goo Dolls",
+    "year": 1998,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/0/8/d/0/08df029ee8f83c255da889342a4cc863.mp3?hdnea=exp=1773868424~acl=/api/1/1/0/8/d/0/08df029ee8f83c255da889342a4cc863.mp3*~data=user_id=0,application_id=42~hmac=60594a90e6438d106de8d453aa07d7847c3299a185e460d18f6e63d985da3c45"
+  },
+  {
+    "deezerId": 786717,
+    "title": "Believe",
+    "artist": "Cher",
+    "year": 1998,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/c/f/e/0/cfe5600eb3b0f8b50ff351ae46129e07.mp3?hdnea=exp=1773868425~acl=/api/1/1/c/f/e/0/cfe5600eb3b0f8b50ff351ae46129e07.mp3*~data=user_id=0,application_id=42~hmac=68280e0527a50f53218b3392c725dec4e5bd7ba983f67aab066cc15b197a03f0"
+  },
+  {
+    "deezerId": 917717,
+    "title": "All Star",
+    "artist": "Smash Mouth",
+    "year": 1999,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/c/3/9/0/c39b11ed88563f5017876b45b68dd6db.mp3?hdnea=exp=1773868425~acl=/api/1/1/c/3/9/0/c39b11ed88563f5017876b45b68dd6db.mp3*~data=user_id=0,application_id=42~hmac=6694d3e6b045a42c0c4064dcae6b233ea0661ef5a1a1e8f2a50b91e8e18f8221"
+  },
+  {
+    "deezerId": 725274,
+    "title": "Californication",
+    "artist": "Red Hot Chili Peppers",
+    "year": 1999,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/c/7/0/2c7c12953e487de2983fc0d361992604.mp3?hdnea=exp=1773868425~acl=/api/1/1/2/c/7/0/2c7c12953e487de2983fc0d361992604.mp3*~data=user_id=0,application_id=42~hmac=de4dd5c37426d58bf2369878e777f94fa151f2771cc8d43966b49db71ad1a9b9"
+  },
+  {
+    "deezerId": 1574190,
+    "title": "Beautiful Day",
+    "artist": "U2",
+    "year": 2000,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/4/1/c/0/41c74a3017be2cf79d09c2a03a2d349f.mp3?hdnea=exp=1773868426~acl=/api/1/1/4/1/c/0/41c74a3017be2cf79d09c2a03a2d349f.mp3*~data=user_id=0,application_id=42~hmac=ec4395e65b82a766e887e061f3379c2e7908f4f2e065a8c5dd3524a373fcaa16"
+  },
+  {
+    "deezerId": 561685,
+    "title": "Les Champs-Elysées",
+    "artist": "Joe Dassin",
+    "year": 1970,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/c/2/3/0/c23fcdc7dcae4544177eb676ce0c78a3.mp3?hdnea=exp=1773868427~acl=/api/1/1/c/2/3/0/c23fcdc7dcae4544177eb676ce0c78a3.mp3*~data=user_id=0,application_id=42~hmac=1636de952377d885a4f0783ea08fb9cd92ce0ae024b96dbe5b9643e4b37a23b3"
+  },
+  {
+    "deezerId": 1109731,
+    "title": "Lose Yourself",
+    "artist": "Eminem",
+    "year": 2002,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/7/a/0/27a14827ff1e82c5e40e8b6a934a8637.mp3?hdnea=exp=1773868427~acl=/api/1/1/2/7/a/0/27a14827ff1e82c5e40e8b6a934a8637.mp3*~data=user_id=0,application_id=42~hmac=96900dce783e65ddbe8a4b3daa0aea6b2f01b14f236886dfdae5c3f9a5b5d338"
+  },
+  {
+    "deezerId": 15587465,
+    "title": "Complicated",
+    "artist": "Avril Lavigne",
+    "year": 2002,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/5/c/0/25cff28ed6db68d4ab22720ac9d524b3.mp3?hdnea=exp=1773868428~acl=/api/1/1/2/5/c/0/25cff28ed6db68d4ab22720ac9d524b3.mp3*~data=user_id=0,application_id=42~hmac=303982fb5df5b22f8e3c10c7f8bb6262bcc56fa37bbf3629e8343d7678abb44e"
+  },
+  {
+    "deezerId": 145429536,
+    "title": "In Da Club",
+    "artist": "50 Cent",
+    "year": 2003,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/a/2/c/0/a2cb970818a57a32a69af09bf2896706.mp3?hdnea=exp=1773868428~acl=/api/1/1/a/2/c/0/a2cb970818a57a32a69af09bf2896706.mp3*~data=user_id=0,application_id=42~hmac=da1764064d6f2b17c74eb797ddd275f0120b4c5b24d69df53fb8f759c960c338"
+  },
+  {
+    "deezerId": 609244,
+    "title": "Crazy In Love (feat. JAY-Z)",
+    "artist": "Beyoncé",
+    "year": 2003,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/9/d/a/0/9da6dc6e093d7afe9aba7868644fda2a.mp3?hdnea=exp=1773868428~acl=/api/1/1/9/d/a/0/9da6dc6e093d7afe9aba7868644fda2a.mp3*~data=user_id=0,application_id=42~hmac=a1a01305521a1db8cead76be5408f8d5fb5b9a6c1d5cbfe4f87ce94c8aeed73b"
+  },
+  {
+    "deezerId": 628266,
+    "title": "Hey Ya!",
+    "artist": "OutKast",
+    "year": 2003,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/0/3/9/0/039b2c3871d36df880b29fc2b4ac2fc8.mp3?hdnea=exp=1773868429~acl=/api/1/1/0/3/9/0/039b2c3871d36df880b29fc2b4ac2fc8.mp3*~data=user_id=0,application_id=42~hmac=bada59c670870fa126f3d810140e3316adeda49473463f3fb3f9fc3704587220"
+  },
+  {
+    "deezerId": 14629005,
+    "title": "Numb",
+    "artist": "Linkin Park",
+    "year": 2003,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/4/2/b/0/42b05e42e6f684b6a2de860831cfa91a.mp3?hdnea=exp=1773868429~acl=/api/1/1/4/2/b/0/42b05e42e6f684b6a2de860831cfa91a.mp3*~data=user_id=0,application_id=42~hmac=2003abe9d3e15e138e4e0582c8b283bb9c4eb1343e760bb186d0b028d64142e8"
+  },
+  {
+    "deezerId": 71955234,
+    "title": "Mr. Brightside",
+    "artist": "The Killers",
+    "year": 2003,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/f/e/0/0/fe092bf9e7693590ff4d43bef6f33a08.mp3?hdnea=exp=1773868430~acl=/api/1/1/f/e/0/0/fe092bf9e7693590ff4d43bef6f33a08.mp3*~data=user_id=0,application_id=42~hmac=856766594d7454cde8f08f2d1e123075eb90ec5652d122a4011dfc8396f30ed1"
+  },
+  {
+    "deezerId": 15391618,
+    "title": "Toxic",
+    "artist": "Britney Spears",
+    "year": 2003,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/9/d/3/0/9d34e72ceb70f4d8e347d3e21e245531.mp3?hdnea=exp=1773868430~acl=/api/1/1/9/d/3/0/9d34e72ceb70f4d8e347d3e21e245531.mp3*~data=user_id=0,application_id=42~hmac=7f7f1a468904d7477ea5cb15e7057e832613f1efbac1e4b2e1776d20ce5c034c"
+  },
+  {
+    "deezerId": 925106,
+    "title": "Umbrella",
+    "artist": "Rihanna",
+    "year": 2007,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/c/6/2/0/c62231a4abced1c3e3ba03b5effb9aa9.mp3?hdnea=exp=1773868431~acl=/api/1/1/c/6/2/0/c62231a4abced1c3e3ba03b5effb9aa9.mp3*~data=user_id=0,application_id=42~hmac=383b9f64c163944a6607fbf1d2dd15272e2178f99dd11fc9d7afc70198c5c641"
+  },
+  {
+    "deezerId": 734508762,
+    "title": "Poker Face",
+    "artist": "Lady Gaga",
+    "year": 2008,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/3/3/0/233fe3a96cf1654b2cf30be68cb94624.mp3?hdnea=exp=1773868431~acl=/api/1/1/2/3/3/0/233fe3a96cf1654b2cf30be68cb94624.mp3*~data=user_id=0,application_id=42~hmac=842e40881923eb477131ea00e61e22fe463a0fbfd6fbe692cb42d47472760234"
+  },
+  {
+    "deezerId": 8086126,
+    "title": "Rolling in the Deep",
+    "artist": "Adele",
+    "year": 2010,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/8/7/0/d87d2d1789c1b4d96992d8079a29360b.mp3?hdnea=exp=1773868432~acl=/api/1/1/d/8/7/0/d87d2d1789c1b4d96992d8079a29360b.mp3*~data=user_id=0,application_id=42~hmac=74c2d4ba5a9056f6f04ad8615e87debff776edf8df7b24bb3afdc1ac6e0b7912"
+  },
+  {
+    "deezerId": 6297555,
+    "title": "Alors on danse (Radio Edit)",
+    "artist": "Stromae",
+    "year": 2010,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/d/0/b5d5526e1313066fcabff2c06636a47e.mp3?hdnea=exp=1773868432~acl=/api/1/1/b/5/d/0/b5d5526e1313066fcabff2c06636a47e.mp3*~data=user_id=0,application_id=42~hmac=90fe2c5f9ab7d510be45425ee8109dfe4b182cc1a9f8e242e9bf9f7bfc7a4b6b"
+  },
+  {
+    "deezerId": 119615552,
+    "title": "Somebody That I Used To Know",
+    "artist": "Gotye",
+    "year": 2011,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/6/7/4/0/674feceb9fbf9750da387769b0fc7816.mp3?hdnea=exp=1773868433~acl=/api/1/1/6/7/4/0/674feceb9fbf9750da387769b0fc7816.mp3*~data=user_id=0,application_id=42~hmac=7d2f2c7a21b967e15a3176da6e4c55337ecf83614ad8474b5b8d678cf7de752e"
+  },
+  {
+    "deezerId": 60726278,
+    "title": "Gangnam Style (강남스타일)",
+    "artist": "Psy",
+    "year": 2012,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/3/a/0/0/3a0567e318e4ca3102cc6ab1579ec61b.mp3?hdnea=exp=1773868433~acl=/api/1/1/3/a/0/0/3a0567e318e4ca3102cc6ab1579ec61b.mp3*~data=user_id=0,application_id=42~hmac=ad9df9ec73a0d5cc89bf680ff9245b541478c0bca7488c0e3c94521153b0a7a3"
+  },
+  {
+    "deezerId": 69879254,
+    "title": "Formidable",
+    "artist": "Stromae",
+    "year": 2013,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/0/6/9/0/0699b8a023884ece75530914d9f32001.mp3?hdnea=exp=1773868433~acl=/api/1/1/0/6/9/0/0699b8a023884ece75530914d9f32001.mp3*~data=user_id=0,application_id=42~hmac=6f327dd95d1431d318bb2fd3979630738ab73fe04d20d140cb4a8d8ae3caa162"
+  },
+  {
+    "deezerId": 69879250,
+    "title": "Papaoutai",
+    "artist": "Stromae",
+    "year": 2013,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/f/d/8/0/fd8bf3488238a9931c3c122411657c3a.mp3?hdnea=exp=1773868434~acl=/api/1/1/f/d/8/0/fd8bf3488238a9931c3c122411657c3a.mp3*~data=user_id=0,application_id=42~hmac=8deacf8b4fc3ea7927bfa08d35783b8e3ecd2ee5a3760c93fc5f4a30dbb9cead"
+  },
+  {
+    "deezerId": 701326562,
+    "title": "Happy (From \"Despicable Me 2\")",
+    "artist": "Pharrell Williams",
+    "year": 2013,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/9/0/5/0/90543b3c88fed677915d879fa4320288.mp3?hdnea=exp=1773868434~acl=/api/1/1/9/0/5/0/90543b3c88fed677915d879fa4320288.mp3*~data=user_id=0,application_id=42~hmac=42805528fd7b1dde239449563f507dbda19f6c2b3440c8ba075e0a78fdeb7ec1"
+  },
+  {
+    "deezerId": 92734438,
+    "title": "Uptown Funk (feat. Bruno Mars)",
+    "artist": "Mark Ronson",
+    "year": 2014,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/0/a/0/b0a30d99fddf73c172e0d3f308899dd5.mp3?hdnea=exp=1773868435~acl=/api/1/1/b/0/a/0/b0a30d99fddf73c172e0d3f308899dd5.mp3*~data=user_id=0,application_id=42~hmac=8c2705ff46d401875f992b0b711579b36c88fbdc1d6c0e7bc7fe3a42bea62e71"
+  },
+  {
+    "deezerId": 139470659,
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "year": 2017,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/f/1/b/0/f1becf66c6264a6a0306fc47d47690b0.mp3?hdnea=exp=1773868436~acl=/api/1/1/f/1/b/0/f1becf66c6264a6a0306fc47d47690b0.mp3*~data=user_id=0,application_id=42~hmac=83a06c7f54fcc1dc233ed2402e8d70eabe2640d5cf373a1207ee5495e2566812"
+  },
+  {
+    "deezerId": 908604612,
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "year": 2019,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/1/b/2/0/1b27825bf63c36edcdc7fac9f920214e.mp3?hdnea=exp=1773868436~acl=/api/1/1/1/b/2/0/1b27825bf63c36edcdc7fac9f920214e.mp3*~data=user_id=0,application_id=42~hmac=be7b8a3efea5c109e7ba5bedeb95b3c9953e72ef215e80407f4db1c6cd4ad61f"
+  },
+  {
+    "deezerId": 699056192,
+    "title": "Old Town Road (feat. Billy Ray Cyrus) (Remix)",
+    "artist": "Lil Nas X",
+    "year": 2019,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/2/e/4/0/2e4be56a5de5e1113d00f58d92207137.mp3?hdnea=exp=1773868436~acl=/api/1/1/2/e/4/0/2e4be56a5de5e1113d00f58d92207137.mp3*~data=user_id=0,application_id=42~hmac=c9ae83dda566f3b82a878d5bc283d4d3ea9ca9dce7de2bf5badf269afcfb66b2"
+  },
+  {
+    "deezerId": 655095912,
+    "title": "bad guy",
+    "artist": "Billie Eilish",
+    "year": 2019,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/2/0/b528e07441caa4883c8d1c4b746bf47c.mp3?hdnea=exp=1773868437~acl=/api/1/1/b/5/2/0/b528e07441caa4883c8d1c4b746bf47c.mp3*~data=user_id=0,application_id=42~hmac=490130bc37d4e6c8bca4dcec97217893a2bf2d3e0b3e5a88fc09068c1a5a3263"
+  },
+  {
+    "deezerId": 739870792,
+    "title": "Dance Monkey",
+    "artist": "Tones And I",
+    "year": 2019,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/5/9/0/b59d3c5a5127030c2d7255c557405f69.mp3?hdnea=exp=1773868437~acl=/api/1/1/b/5/9/0/b59d3c5a5127030c2d7255c557405f69.mp3*~data=user_id=0,application_id=42~hmac=e67e6896bfe8075c92d6d3f45a94b9cc27e5a0790ac657abacd9a1a35545b38e"
+  },
+  {
+    "deezerId": 1049999812,
+    "title": "Bande organisée",
+    "artist": "Kofs",
+    "year": 2020,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/4/b/d/0/4bd97b1a2a6322a7ad927205555be490.mp3?hdnea=exp=1773868438~acl=/api/1/1/4/b/d/0/4bd97b1a2a6322a7ad927205555be490.mp3*~data=user_id=0,application_id=42~hmac=018f99de1faf1cd6d43a2bf4eff621a8c31e2794c20ed6081ad3800e6a7e1e18"
+  },
+  {
+    "deezerId": 1703487577,
+    "title": "As It Was",
+    "artist": "Harry Styles",
+    "year": 2022,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/9/3/7/0/9372c78844baf74b7a06bd467151518a.mp3?hdnea=exp=1773868438~acl=/api/1/1/9/3/7/0/9372c78844baf74b7a06bd467151518a.mp3*~data=user_id=0,application_id=42~hmac=b0dc948ea3ebac29493d1938830fa1814fbfd6ac8c032ec047e3d10f6ed191b1"
+  },
+  {
+    "deezerId": 2105158337,
+    "title": "Flowers",
+    "artist": "Miley Cyrus",
+    "year": 2023,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/c/a/1/0/ca19f3388408a917038cb083873c4ae1.mp3?hdnea=exp=1773868439~acl=/api/1/1/c/a/1/0/ca19f3388408a917038cb083873c4ae1.mp3*~data=user_id=0,application_id=42~hmac=950bca3acca5bd1aff2dd331312ff0aca15a5bf547845862844dc71a557272d4"
+  },
+  {
+    "deezerId": 2743578151,
+    "title": "Espresso",
+    "artist": "Sabrina Carpenter",
+    "year": 2024,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/1/7/a/0/17a21c40ce4af3ac9514aac756403188.mp3?hdnea=exp=1773868439~acl=/api/1/1/1/7/a/0/17a21c40ce4af3ac9514aac756403188.mp3*~data=user_id=0,application_id=42~hmac=1f1da25fa44306c32d0d2e2f29b23e286375ce0ad0b3576e4ff51090a3f7b13b"
+  },
+  {
+    "deezerId": 1045832272,
+    "title": "Don't Stop Me Now",
+    "artist": "Queen",
+    "year": 1978,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/b/5/0/db51545334395ae26e2f90cf25c961e5.mp3?hdnea=exp=1773868440~acl=/api/1/1/d/b/5/0/db51545334395ae26e2f90cf25c961e5.mp3*~data=user_id=0,application_id=42~hmac=cce7d394c2b2ea20683fc3b73ca867951942404e086a1ed31cd4f61a1ee0fe59"
+  },
+  {
+    "deezerId": 568115782,
+    "title": "Somebody To Love (2011 Remaster)",
+    "artist": "Queen",
+    "year": 1976,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/0/5/9/0/0590735cffe27dd5fab09020d9e50537.mp3?hdnea=exp=1773868440~acl=/api/1/1/0/5/9/0/0590735cffe27dd5fab09020d9e50537.mp3*~data=user_id=0,application_id=42~hmac=7a76d7bb1977073054cf43d32abfbe772fcef08f6f49c192782d4167e39014fa"
+  },
+  {
+    "deezerId": 3129926,
+    "title": "La Vie en rose",
+    "artist": "Edith Piaf",
+    "year": 1947,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/a/9/9/0/a9964d6dca2b960c21d3a6db5c70e718.mp3?hdnea=exp=1773868441~acl=/api/1/1/a/9/9/0/a9964d6dca2b960c21d3a6db5c70e718.mp3*~data=user_id=0,application_id=42~hmac=a5e71aebacd9a807ffc67fa3c8501be0b95e8917582b632aa6107e68bd3cf83c"
+  },
+  {
+    "deezerId": 3104486,
+    "title": "Call Me",
+    "artist": "Blondie",
+    "year": 1980,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/0/1/e/0/01e2c63b1987196fc7ca4cf928a53980.mp3?hdnea=exp=1773868441~acl=/api/1/1/0/1/e/0/01e2c63b1987196fc7ca4cf928a53980.mp3*~data=user_id=0,application_id=42~hmac=b62a05e984b35a9d63ba7aa34e8320aacf2e2239224b706e465be40a59968c85"
+  },
+  {
+    "deezerId": 2150228,
+    "title": "La tribu de Dana",
+    "artist": "Manau",
+    "year": 1998,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/a/c/1/0/ac10a2ed6f0fd269bd8ae587cb5ce9b3.mp3?hdnea=exp=1773868442~acl=/api/1/1/a/c/1/0/ac10a2ed6f0fd269bd8ae587cb5ce9b3.mp3*~data=user_id=0,application_id=42~hmac=7667e0c9e95b48be8d4da6f201676a58479e77da45399dd43259be4d58800684"
+  },
+  {
+    "deezerId": 676954,
+    "title": "Numb / Encore",
+    "artist": "JAŸ-Z",
+    "year": 2004,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/6/e/8/0/6e8d0e1d66889d80c8259388855f3884.mp3?hdnea=exp=1773868442~acl=/api/1/1/6/e/8/0/6e8d0e1d66889d80c8259388855f3884.mp3*~data=user_id=0,application_id=42~hmac=53f2210e0950690223ed22894720d47de9ebfdf902a2346920d197e22648acce"
+  },
+  {
+    "deezerId": 716513432,
+    "title": "We Will Rock You (Remastered 2011)",
+    "artist": "Queen",
+    "year": 1977,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/d/2/a/0/d2aa1817c3ed595a1266591ed39249c1.mp3?hdnea=exp=1773868443~acl=/api/1/1/d/2/a/0/d2aa1817c3ed595a1266591ed39249c1.mp3*~data=user_id=0,application_id=42~hmac=666ab02743e664cbcafe8c48773f50f6a13d3fc537aefa10199e82180b9a0d90"
+  },
+  {
+    "deezerId": 2172214,
+    "title": "Avec le temps",
+    "artist": "Léo Ferré",
+    "year": 1971,
+    "previewUrl": "https://cdnt-preview.dzcdn.net/api/1/1/b/e/4/0/be48e9e2364a9172d9ac6ef92e3b8b30.mp3?hdnea=exp=1773868443~acl=/api/1/1/b/e/4/0/be48e9e2364a9172d9ac6ef92e3b8b30.mp3*~data=user_id=0,application_id=42~hmac=03899fb633ed611410361e13d810c49c3979272161726771712a0abda0276027"
+  }
+]
